@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* Gemeinsamer Container */
+.iframe-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+/* YouTube iframe: 80% der Höhe */
+.iframe-container:first-of-type iframe {
+    width: 100vw;
+    height: 80vh;
+    border: none;
+}
+
+/* Wetter iframe: 40% der Höhe */
+.iframe-container:last-of-type iframe {
+    width: 100vw;
+    height: 40vh;
+    border: none;
+}

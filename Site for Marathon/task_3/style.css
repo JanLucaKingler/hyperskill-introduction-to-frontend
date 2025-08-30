@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.iframe-container {
+    width: 100vw;
+}
+
+#youtube-item{
+    height: 80vh;
+    width: 100vw;
+}
+
+#weather-item {
+    height:40vh;
+    width:100vw;
+
+}
+
+.iframe-container:first-of-type iframe {
+    width: 100vw;
+    height: 80vh;
+    border: none;
+}
+
+.iframe-container:last-of-type iframe {
+    width: 100vw;
+    height: 40vh;
+    border: none;
+}
